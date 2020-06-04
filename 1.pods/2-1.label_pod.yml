@@ -35,7 +35,7 @@ spec:
     image: kubetm/init
 ---
 apiVersion: v1
-kind: Pod1
+kind: Pod4
 metadata:
   name: pod-2
   labels:
@@ -47,7 +47,7 @@ spec:
     image: kubetm/init
 ---
 apiVersion: v1
-kind: Pod2
+kind: Pod5
 metadata:
   name: pod-2
   labels:
@@ -59,7 +59,7 @@ spec:
     image: kubetm/init
 ---
 apiVersion: v1
-kind: Pod3
+kind: Pod6
 metadata:
   name: pod-2
   labels:
