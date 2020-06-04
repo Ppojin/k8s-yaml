@@ -7,3 +7,13 @@ spec:
     type: web
   ports:
   - port: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-2
+spec:
+  selector:
+    lo: production
+  ports:
+  - port: 8080
