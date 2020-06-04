@@ -1,7 +1,7 @@
 apiVersion: v1
-kind: Pod1
+kind: Pod
 metadata:
-  name: pod-2
+  name: pod-1
   labels:
     type: web
     lo: dev
@@ -11,7 +11,7 @@ spec:
     image: kubetm/init
 ---
 apiVersion: v1
-kind: Pod2
+kind: Pod
 metadata:
   name: pod-2
   labels:
@@ -23,9 +23,9 @@ spec:
     image: kubetm/init
 ---
 apiVersion: v1
-kind: Pod3
+kind: Pod
 metadata:
-  name: pod-2
+  name: pod-3
   labels:
     type: server
     lo: dev
@@ -35,9 +35,9 @@ spec:
     image: kubetm/init
 ---
 apiVersion: v1
-kind: Pod4
+kind: Pod
 metadata:
-  name: pod-2
+  name: pod-4
   labels:
     type: web
     lo: production
@@ -47,9 +47,9 @@ spec:
     image: kubetm/init
 ---
 apiVersion: v1
-kind: Pod5
+kind: Pod
 metadata:
-  name: pod-2
+  name: pod-5
   labels:
     type: db
     lo: production
@@ -59,9 +59,9 @@ spec:
     image: kubetm/init
 ---
 apiVersion: v1
-kind: Pod6
+kind: Pod
 metadata:
-  name: pod-2
+  name: pod-6
   labels:
     type: server
     lo: production
